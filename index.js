@@ -30,7 +30,7 @@ const init = () => {
             name: "managerOfiiceNumber"
         },
     ]) .then((manager) => {
-        console.log(t)
+        console.log(data)
         const {managerName, managerID, managerEmail, managerOfficNumber} = manager
         const manager = new Manager(managerName, managerID, managerEmail, managerOfficNumber)
         employeeBucket.push(manager)
